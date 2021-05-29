@@ -43,7 +43,7 @@
     "tailwindcss": "^2.1.2",
     "turbolinks": "^5.2.0",
     "typeface-roboto": "^1.1.13",
-    "webpack": "^5.11.0",
+    "webpack": "^5.38.1",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.2"
   },
