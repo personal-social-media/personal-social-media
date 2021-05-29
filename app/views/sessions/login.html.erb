@@ -21,7 +21,7 @@
         <%= safe_hcaptcha_tags(theme: :light) %>
       </div>
 
-      <%= f.submit "Login with QR code", class: "w-full mt-4", data: { "profile--login-target": :submit }, disabled: Rails.env.production? %>
+      <%= f.submit "Login with QR code", class: "w-full mt-4", data: { "profile--login-target": :submit }, disabled: !Rails.env.production? %>
     <% end %>
   </div>
 </div>

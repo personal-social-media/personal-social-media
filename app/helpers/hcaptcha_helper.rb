@@ -4,8 +4,8 @@ module HcaptchaHelper
   def safe_hcaptcha_tags(options = {})
     config = Hcaptcha.configuration
     return if config.secret_key.blank? || config.site_key.blank?
-
-    hcaptcha_tags(options)
+    default_options = { callback: :hcaptchaSuccess }
+    hcaptcha_tags(options.merge(default_options))
   end
 
   def verify_hcaptcha_filter

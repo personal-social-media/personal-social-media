@@ -1,0 +1,1 @@
+import './hcaptcha/hcaptcha-success';

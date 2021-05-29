@@ -6,13 +6,11 @@ export default class extends Controller {
   static targets = ['submit', 'inputPassword', 'inputFile', 'form'];
 
   connect() {
-    this.disableSubmitAfterRecaptchaFindElement();
+    this.watchForRecaptcha();
   }
 
-  disableSubmitAfterRecaptchaFindElement() {
-    const input = this.element.querySelector('[name=\'h-captcha-response\']');
-    if (!input) return setTimeout(this.disableSubmitAfterRecaptchaFindElement.bind(this), 300);
-    input.addEventListener('change', () => {
+  watchForRecaptcha() {
+    document.addEventListener('hcaptcha-response', () => {
       this.submitTarget.disabled = false;
     });
   }
