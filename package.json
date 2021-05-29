@@ -21,7 +21,7 @@
     "axios-case-converter": "^0.7.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "chokidar": "^3.5.1",
-    "css-loader": "^5.2.4",
+    "css-loader": "^5.2.6",
     "eslint": "^7.26.0",
     "html-to-image": "^1.6.2",
     "mini-css-extract-plugin": "^1.6.0",
