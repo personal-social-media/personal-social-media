@@ -58,7 +58,7 @@ group :test, :production do
 end
 
 gem "attributes_sanitizer", "~> 0.1.6"
-gem "bitwise_attribute", github: "personal-social-media/bitwise_attribute", ref: "36371f6511a5907d1ec96385e0baca55d935cb99"
+gem "bitwise_attribute"
 gem "bugsnag", "~> 6.20", require: is_dev
 gem "email_validator", "~> 2.2", ">= 2.2.3"
 gem "hcaptcha", github: "personal-social-media/hcaptcha", ref: "a2135327e0f22ddba170d77dbba86827cd05c2cb"

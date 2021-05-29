@@ -1,11 +1,4 @@
 GIT
-  remote: https://github.com/personal-social-media/bitwise_attribute.git
-  revision: 36371f6511a5907d1ec96385e0baca55d935cb99
-  ref: 36371f6511a5907d1ec96385e0baca55d935cb99
-  specs:
-    bitwise_attribute (0.3.3)
-
-GIT
   remote: https://github.com/personal-social-media/hcaptcha.git
   revision: a2135327e0f22ddba170d77dbba86827cd05c2cb
   ref: a2135327e0f22ddba170d77dbba86827cd05c2cb
@@ -130,6 +123,7 @@ GEM
       smart_properties
     binding_of_caller (1.0.0)
       debug_inspector (>= 0.0.1)
+    bitwise_attribute (0.3.4)
     bootsnap (1.7.5)
       msgpack (~> 1.0)
     brakeman (5.0.1)
@@ -496,7 +490,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   better_errors (~> 2.9, >= 2.9.1)
   binding_of_caller (~> 1.0)
-  bitwise_attribute!
+  bitwise_attribute
   bootsnap (>= 1.4.4)
   brakeman (~> 5.0, >= 5.0.1)
   bugsnag (~> 6.20)
