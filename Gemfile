@@ -68,7 +68,7 @@ gem "lockbox", "~> 0.6.4"
 gem "oj", "~> 3.11", ">= 3.11.5"
 gem "rails_admin", "~> 2.1", ">= 2.1.1", require: is_dev
 gem "rbnacl", "~> 7.1", ">= 7.1.1"
-gem "rmega", github: "personal-social-media/rmega", ref: "bc1ffc624cfb30197fea1b042ff1115961ad89f5"
+gem "rmega"
 gem "sidekiq", "~> 6.2", ">= 6.2.1", require: %w(sidekiq/web)
 gem "sidekiq-cron", "~> 1.2", require: %w(sidekiq/cron/web)
 gem "sidekiq-throttled", "~> 0.13.0", require: "sidekiq/throttled"

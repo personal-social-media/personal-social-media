@@ -13,14 +13,6 @@ GIT
     hcaptcha (7.1.0)
       json
 
-GIT
-  remote: https://github.com/personal-social-media/rmega.git
-  revision: bc1ffc624cfb30197fea1b042ff1115961ad89f5
-  ref: bc1ffc624cfb30197fea1b042ff1115961ad89f5
-  specs:
-    rmega (0.2.7)
-      pbkdf2-ruby
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -368,6 +360,8 @@ GEM
     regexp_parser (2.1.1)
     remotipart (1.4.4)
     rexml (3.2.5)
+    rmega (0.2.7)
+      pbkdf2-ruby
     rspec-core (3.10.1)
       rspec-support (~> 3.10.0)
     rspec-expectations (3.10.1)
@@ -525,7 +519,7 @@ DEPENDENCIES
   rails (~> 6.1.3, >= 6.1.3.2)
   rails_admin (~> 2.1, >= 2.1.1)
   rbnacl (~> 7.1, >= 7.1.1)
-  rmega!
+  rmega
   rspec-rails (~> 5.0, >= 5.0.1)
   rubocop-rails_config (~> 1.5, >= 1.5.3)
   sass-rails (>= 6)
