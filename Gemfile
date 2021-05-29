@@ -29,7 +29,7 @@ group :development do
   gem "foreman", "~> 0.87.2"
   gem "guard", "~> 2.16", ">= 2.16.2"
   gem "guard-livereload", "~> 2.5", ">= 2.5.2"
-  gem "puma", "~> 5.3", ">= 5.3.1"
+  gem "puma", "~> 5.3"
   gem "rack-livereload", "~> 0.3.17"
   gem "rubocop-rails_config", "~> 1.5", ">= 1.5.3"
 end
