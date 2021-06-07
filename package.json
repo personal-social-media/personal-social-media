@@ -48,7 +48,7 @@
     "sass-loader": "^11.0.1",
     "stimulus": "^2.0.0",
     "style-loader": "^2.0.0",
-    "tailwindcss": "^2.1.2",
+    "tailwindcss": "^2.1.4",
     "transform-object-keys": "^1.0.7",
     "turbolinks": "^5.2.0",
     "typeface-roboto": "^1.1.13",
