@@ -39,7 +39,7 @@ group :development do
 end
 
 group :development, :test do
-  gem "brakeman", "~> 5.0", ">= 5.0.1"
+  gem "brakeman", "~> 5.0"
   gem "bundler-audit"
   gem "dotenv-rails", "~> 2.7", ">= 2.7.6"
   gem "erb_lint", require: false
