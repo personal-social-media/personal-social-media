@@ -21,7 +21,7 @@
     "axios": "^0.21.1",
     "axios-case-converter": "^0.7.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
-    "chokidar": "^3.5.1",
+    "chokidar": "^3.5.2",
     "css-loader": "^5.2.6",
     "date-fns": "^2.22.1",
     "emoji-js": "^3.5.0",
