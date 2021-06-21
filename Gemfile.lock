@@ -23,7 +23,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/webpacker.git
-  revision: 8c7f758c9c34e3e6d7d646d53cf4be8171a1c12d
+  revision: beb645ecbf707eb4f3311e61b05abb67fe0ca010
   specs:
     webpacker (6.0.0.beta.7)
       activesupport (>= 5.2)
@@ -260,7 +260,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     localhost (1.1.8)
     lockbox (0.6.4)
-    loofah (2.9.1)
+    loofah (2.10.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -273,7 +273,7 @@ GEM
     msgpack (1.4.2)
     nested_form (0.3.2)
     nio4r (2.5.7)
-    nokogiri (1.11.5-x86_64-linux)
+    nokogiri (1.11.7-x86_64-linux)
       racc (~> 1.4)
     oj (3.11.5)
     parallel (1.20.1)
