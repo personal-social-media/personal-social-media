@@ -11,7 +11,7 @@
   "dependencies": {
     "@babel/preset-react": "^7.14.5",
     "@fortawesome/fontawesome-free": "^5.15.3",
-    "@hookstate/core": "^3.0.7",
+    "@hookstate/core": "^3.0.8",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
