@@ -36,7 +36,7 @@
     "javascript-time-ago": "^2.3.7",
     "lodash": "^4.17.21",
     "masonic": "^3.4.1",
-    "mini-css-extract-plugin": "^1.6.0",
+    "mini-css-extract-plugin": "^1.6.1",
     "mini-virtual-list": "^0.3.1",
     "node-sass": "^6.0.0",
     "pluralize": "^8.0.0",
