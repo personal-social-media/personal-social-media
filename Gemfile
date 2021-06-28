@@ -78,7 +78,7 @@ gem "oj", "~> 3.11"
 gem "pghero", "~> 2.8", ">= 2.8.1", require: is_dev
 gem "pg_query", "~> 2.0", ">= 2.0.3", require: is_dev
 gem "rails_admin", "~> 2.1", ">= 2.1.1", require: is_dev
-gem "rails-server-monitor", "~> 0.1.9", require: "rails_server_monitor"
+gem "rails-server-monitor", "~> 0.1.10", require: "rails_server_monitor"
 gem "rbnacl", "~> 7.1", ">= 7.1.1"
 gem "react-rails", "~> 2.6", ">= 2.6.1"
 gem "render_async", "~> 2.1", ">= 2.1.10"
