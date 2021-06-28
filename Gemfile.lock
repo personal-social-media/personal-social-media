@@ -147,7 +147,7 @@ GEM
     bootsnap (1.7.5)
       msgpack (~> 1.0)
     brakeman (5.0.4)
-    bugsnag (6.20.0)
+    bugsnag (6.21.0)
       concurrent-ruby (~> 1.0)
     build-environment (1.13.0)
     builder (3.2.4)
@@ -528,7 +528,7 @@ DEPENDENCIES
   bitwise_attribute!
   bootsnap (>= 1.4.4)
   brakeman (~> 5.0)
-  bugsnag (~> 6.20)
+  bugsnag (~> 6.21)
   bullet (~> 6.1, >= 6.1.4)
   bundler-audit
   capybara (~> 3.35, >= 3.35.3)
