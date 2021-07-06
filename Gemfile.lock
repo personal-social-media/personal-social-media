@@ -23,7 +23,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/webpacker.git
-  revision: beb645ecbf707eb4f3311e61b05abb67fe0ca010
+  revision: 032c2d11a3758035305fe34e6795ab133128ee32
   specs:
     webpacker (6.0.0.beta.7)
       activesupport (>= 5.2)
@@ -410,7 +410,7 @@ GEM
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
     rspec-support (3.10.2)
-    rubocop (1.17.0)
+    rubocop (1.18.2)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
@@ -426,13 +426,13 @@ GEM
     rubocop-performance (1.11.3)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
-    rubocop-rails (2.10.1)
+    rubocop-rails (2.11.2)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.7.0, < 2.0)
-    rubocop-rails_config (1.5.4)
+    rubocop-rails_config (1.6.0)
       railties (>= 5.0)
-      rubocop (>= 1.13)
+      rubocop (>= 1.18)
       rubocop-ast (>= 1.0.1)
       rubocop-packaging (~> 0.5)
       rubocop-performance (~> 1.11)
@@ -563,7 +563,7 @@ DEPENDENCIES
   request_store_rails-sidekiq (~> 0.1.0)
   rmega!
   rspec-rails (~> 5.0, >= 5.0.1)
-  rubocop-rails_config (~> 1.5)
+  rubocop-rails_config (~> 1.6)
   sass-rails (>= 6)
   sidekiq (~> 6.2, >= 6.2.1)
   sidekiq-cron (~> 1.2)

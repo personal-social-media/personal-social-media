@@ -35,7 +35,7 @@ group :development do
   gem "lefthook", "~> 0.7.6"
   gem "puma", "~> 5.3"
   gem "rack-mini-profiler", "~> 2.3", ">= 2.3.2"
-  gem "rubocop-rails_config", "~> 1.5"
+  gem "rubocop-rails_config", "~> 1.6"
 end
 
 group :development, :test do
