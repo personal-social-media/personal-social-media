@@ -74,7 +74,7 @@ gem "hcaptcha", github: "personal-social-media/hcaptcha", ref: "a2135327e0f22ddb
 gem "hiredis", "~> 0.6.3", require: %w(redis redis/connection/hiredis)
 gem "jb", "~> 0.8.0"
 gem "lockbox", "~> 0.6.4"
-gem "oj", "~> 3.11"
+gem "oj", "~> 3.12"
 gem "pghero", "~> 2.8", ">= 2.8.1", require: is_dev
 gem "pg_query", "~> 2.0", ">= 2.0.3", require: is_dev
 gem "rails_admin", "~> 2.1", ">= 2.1.1", require: is_dev
