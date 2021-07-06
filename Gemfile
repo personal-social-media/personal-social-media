@@ -14,7 +14,7 @@ ruby "3.0.1"
 gem "bcrypt", "~> 3.1.7"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "pg", "~> 1.2", ">= 1.2.3"
-gem "rails", "~> 6.1.3", ">= 6.1.3.2"
+gem "rails", "~> 6.1.4"
 gem "sass-rails", ">= 6"
 gem "turbolinks", "~> 5.2", ">= 5.2.1"
 gem "webpacker", git: "https://github.com/rails/webpacker.git"
