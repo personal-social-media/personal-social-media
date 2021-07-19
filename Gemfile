@@ -60,7 +60,7 @@ group :test do
 end
 
 group :test, :production do
-  gem "falcon", "~> 0.39.1"
+  gem "falcon", "~> 0.39.2"
 end
 
 group :production do
