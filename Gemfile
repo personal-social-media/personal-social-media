@@ -41,7 +41,7 @@ group :development do
 end
 
 group :development, :test do
-  gem "brakeman", "~> 5.0"
+  gem "brakeman", "~> 5.1"
   gem "bundler-audit"
   gem "erb_lint", require: false
   gem "factory_bot_rails", "~> 6.2"
