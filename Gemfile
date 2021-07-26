@@ -86,7 +86,7 @@ gem "lockbox", "~> 0.6.5"
 gem "oj", "~> 3.12"
 gem "pghero", "~> 2.8", ">= 2.8.1", require: is_dev
 gem "pg_query", "~> 2.1", require: is_dev
-gem "rails_admin", "~> 2.1", ">= 2.1.1", require: is_dev
+gem "rails_admin", "~> 2.2", require: is_dev
 gem "rails-server-monitor", "~> 0.1.10", require: "rails_server_monitor"
 gem "rbnacl", "~> 7.1", ">= 7.1.1"
 gem "react-rails", "~> 2.6", ">= 2.6.1"
