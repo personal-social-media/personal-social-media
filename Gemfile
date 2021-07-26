@@ -20,7 +20,7 @@ gem "turbolinks", "~> 5.2", ">= 5.2.1"
 gem "webpacker", git: "https://github.com/rails/webpacker.git"
 
 group :development do
-  gem "listen", "~> 3.5", ">= 3.5.1"
+  gem "listen", "~> 3.6"
   gem "spring"
 end
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

@@ -299,7 +299,7 @@ GEM
       kaminari-core (= 1.2.1)
     kaminari-core (1.2.1)
     lefthook (0.7.6)
-    listen (3.5.1)
+    listen (3.6.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     localhost (1.1.8)
@@ -611,7 +611,7 @@ DEPENDENCIES
   image_processing (~> 1.12, >= 1.12.1)
   jb (~> 0.8.0)
   lefthook (~> 0.7.6)
-  listen (~> 3.5, >= 3.5.1)
+  listen (~> 3.6)
   lockbox (~> 0.6.5)
   memory_profiler
   oj (~> 3.12)
