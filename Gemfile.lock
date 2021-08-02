@@ -359,7 +359,6 @@ GEM
     protocol-http2 (0.14.2)
       protocol-hpack (~> 1.4)
       protocol-http (~> 0.18)
-    proxies (0.2.3)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -517,9 +516,6 @@ GEM
     ruby-vips (2.1.2)
       ffi (~> 1.12)
     ruby2_keywords (0.0.5)
-    s3 (0.3.29)
-      addressable
-      proxies
     samovar (2.1.4)
       console (~> 1.0)
       mapping (~> 1.0)
@@ -590,7 +586,7 @@ GEM
       activemodel (>= 3.0.0)
     vcr (6.0.0)
     vidibus-sysinfo (1.2.0)
-    view_component (2.35.0)
+    view_component (2.36.0)
       activesupport (>= 5.0.0, < 8.0)
       method_source (~> 1.0)
     webmock (3.13.0)
@@ -663,7 +659,6 @@ DEPENDENCIES
   rmega!
   rspec-rails (~> 5.0, >= 5.0.1)
   rubocop-rails_config (~> 1.6)
-  s3 (~> 0.3.29)
   sass-rails (>= 6)
   schmooze (~> 0.2.0)
   sidekiq (~> 6.2, >= 6.2.1)
