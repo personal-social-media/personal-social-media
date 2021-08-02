@@ -177,7 +177,7 @@ GEM
       smart_properties
     binding_of_caller (1.0.0)
       debug_inspector (>= 0.0.1)
-    bootsnap (1.7.5)
+    bootsnap (1.7.6)
       msgpack (~> 1.0)
     brakeman (5.1.1)
     bugsnag (6.21.0)
@@ -359,7 +359,6 @@ GEM
     protocol-http2 (0.14.2)
       protocol-hpack (~> 1.4)
       protocol-http (~> 0.18)
-    proxies (0.2.3)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -517,9 +516,6 @@ GEM
     ruby-vips (2.1.2)
       ffi (~> 1.12)
     ruby2_keywords (0.0.5)
-    s3 (0.3.29)
-      addressable
-      proxies
     samovar (2.1.4)
       console (~> 1.0)
       mapping (~> 1.0)
@@ -663,7 +659,6 @@ DEPENDENCIES
   rmega!
   rspec-rails (~> 5.0, >= 5.0.1)
   rubocop-rails_config (~> 1.6)
-  s3 (~> 0.3.29)
   sass-rails (>= 6)
   schmooze (~> 0.2.0)
   sidekiq (~> 6.2, >= 6.2.1)
