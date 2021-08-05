@@ -33,7 +33,7 @@
     "emoji-js": "^3.5.0",
     "emoji-mart": "^3.0.1",
     "emoji-regex": "^9.2.2",
-    "eslint": "^7.31.0",
+    "eslint": "^7.32.0",
     "fast-sha256": "^1.3.0",
     "form-serialize-improved": "^0.8.9",
     "html-to-image": "^1.7.0",
