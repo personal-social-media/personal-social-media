@@ -15,9 +15,9 @@ GIT
 
 GIT
   remote: https://github.com/personal-social-media/rails-server-monitor.git
-  revision: af8490159fad07b8eaa12592bae9b537352eb9eb
+  revision: 4506bc44341060dcef89e92996597d6d18b1a876
   specs:
-    rails-server-monitor (0.2.0)
+    rails-server-monitor (0.2.1)
       chartkick
       groupdate
       psm-ruby-stats (~> 1.0, >= 1.0.4)
@@ -351,7 +351,7 @@ GEM
     murmurhash3 (0.1.6)
     nested_form (0.3.2)
     nio4r (2.5.8)
-    nokogiri (1.12.1-x86_64-linux)
+    nokogiri (1.12.2-x86_64-linux)
       racc (~> 1.4)
     oj (3.12.3)
     parallel (1.20.1)
