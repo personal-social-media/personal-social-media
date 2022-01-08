@@ -11,7 +11,7 @@ elsif ENV["DEVELOPER"]
   is_dev = true
 end
 
-ruby "3.0.1"
+ruby "3.0.3"
 gem "bcrypt", "~> 3.1.7"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "pg", "~> 1.2", ">= 1.2.3"
@@ -106,10 +106,10 @@ gem "rmega", github: "personal-social-media/rmega", ref: "007041cb4d568f430cd8e3
 gem "schmooze", "~> 0.2.0"
 gem "sidekiq", "~> 6.2", ">= 6.2.1", require: %w(sidekiq/web)
 gem "sidekiq-cron", "~> 1.2", require: %w(sidekiq/cron/web)
-gem "sidekiq-throttled", "~> 0.13.0", require: "sidekiq/throttled"
+gem "sidekiq-throttled", "~> 0.15.0", require: "sidekiq/throttled"
 gem "str_enum", "~> 0.2.0"
 gem "strong_migrations", "~> 0.7.7"
 gem "typhoeus", "~> 1.4"
 gem "unicode-emoji", "~> 2.8"
 gem "validates_host", "~> 1.3"
-gem "view_component", require: "view_component/engine"
+gem "view_component"
