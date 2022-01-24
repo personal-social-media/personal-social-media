@@ -37,9 +37,9 @@ GIT
 
 GIT
   remote: https://github.com/rails/webpacker.git
-  revision: 5dae8b51956e9cd739bdfae44f8214fa1e0f49b2
+  revision: b8a01d7a880e0c34473a8c8490b3dc730e3f3586
   specs:
-    webpacker (6.0.0.beta.7)
+    webpacker (6.0.0.rc.6)
       activesupport (>= 5.2)
       rack-proxy (>= 0.6.1)
       railties (>= 5.2)
@@ -353,7 +353,7 @@ GEM
     murmurhash3 (0.1.6)
     nested_form (0.3.2)
     nio4r (2.5.8)
-    nokogiri (1.13.0-x86_64-linux)
+    nokogiri (1.13.1-x86_64-linux)
       racc (~> 1.4)
     oj (3.13.11)
     parallel (1.21.0)
