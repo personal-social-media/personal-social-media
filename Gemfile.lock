@@ -37,9 +37,9 @@ GIT
 
 GIT
   remote: https://github.com/rails/webpacker.git
-  revision: 5dae8b51956e9cd739bdfae44f8214fa1e0f49b2
+  revision: 14dcce2c23a207062e0fc4ebed6042381dabd66a
   specs:
-    webpacker (6.0.0.beta.7)
+    webpacker (6.0.0.rc.6)
       activesupport (>= 5.2)
       rack-proxy (>= 0.6.1)
       railties (>= 5.2)
@@ -299,7 +299,7 @@ GEM
     hashdiff (1.0.1)
     hiredis (0.6.3)
     html_tokenizer (0.0.7)
-    i18n (1.8.11)
+    i18n (1.9.1)
       concurrent-ruby (~> 1.0)
     image_processing (1.12.1)
       mini_magick (>= 4.9.5, < 5)
@@ -353,7 +353,7 @@ GEM
     murmurhash3 (0.1.6)
     nested_form (0.3.2)
     nio4r (2.5.8)
-    nokogiri (1.13.0-x86_64-linux)
+    nokogiri (1.13.1-x86_64-linux)
       racc (~> 1.4)
     oj (3.13.11)
     parallel (1.21.0)
@@ -609,7 +609,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.5.3)
+    zeitwerk (2.5.4)
 
 PLATFORMS
   x86_64-linux
